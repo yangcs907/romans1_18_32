@@ -1,0 +1,116 @@
+body {
+  background-color: rgba(251,243,234,0.3);
+  padding: 0px;
+  margin: 0px;
+}
+
+.headerDiv {
+  height: 300px;
+  width: 100%;
+  background-image: url("./images/bible.jpg");
+  background-size: 100%;
+  background-position: center;
+  max-width: 100%;
+}
+.contentContainer {
+  margin-right: 90px;
+  margin-left: 90px;
+  font-family: "Rubik", sans-serif;
+  padding: 30px;
+  padding-left: 90px;
+  padding-right: 90px;
+  color: rgba(0,0,0,0.7);
+}
+
+#navigation {
+  text-align: center;
+  font-size: 19px;
+  font-family: "Rubik", sans-serif;
+  padding: 15px;
+  background-color: rgba(255,255,255,0.1);
+}
+#navigation a {
+  color: white;
+}
+#navigation a:hover {
+  color: rgba(255,0,0,0.8);
+}
+#headerText {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+#headerText h5 {
+  font-size: 30px;
+}
+#headerText p {
+  font-size: 16px;
+}
+#headerText2 {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+#headerText2 h5 {
+  font-size: 28px;
+}
+#headerText p {
+  font-size: 16px;
+}
+#verseNumber {
+  color: red;
+  opacity: 0.5;
+}
+#copyrightText {
+  font-size:10px;
+  font-style: italic;
+  color: rgba(158,158,158,1);
+}
+
+
+.footerContainer {
+  line-height: 5px;
+  color: rgba(158,158,158,1);
+  font-family: "Rubik", sans-serif;
+  border-top-style: solid;
+  border-color: rgba(158,158,158,0.3);
+  font-size: 13px;
+  border-width: 1px;
+  padding-left: 20px;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .contentContainer {
+    margin: 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media only screen and (max-width:600px) {
+  .contentContainer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .headerDiv {
+    background-size: 130%;
+  }
+  #navigation {
+    font-size: 16px;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0,0,0,0.35);
+    font-weight: bold;
+  }
+  #headerText {
+    padding-top: 70px;
+  }
+  #headerText2 {
+    padding-top: 5px;
+  }
+  #headerText2 h5 {
+    font-size: 16px;
+  }
+}
